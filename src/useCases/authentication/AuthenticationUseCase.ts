@@ -21,7 +21,6 @@ export class AuthenticationUseCase {
         expiresIn: '1 day'
       })
     }
-    console.log('Vai Travis')
 
     return { user, token }
   }
